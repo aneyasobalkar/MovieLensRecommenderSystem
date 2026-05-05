@@ -1,0 +1,18 @@
+# FastAPI + server
+fastapi>=0.110
+uvicorn[standard]>=0.27
+
+# Database
+sqlalchemy>=2.0
+
+# Auth
+python-jose[cryptography]>=3.3
+bcrypt>=4.0
+python-multipart>=0.0.9
+
+# ML / data (already in requirements.txt but listed for completeness)
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-surprise>=1.1.3
+scikit-learn>=1.3
